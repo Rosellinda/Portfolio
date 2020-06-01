@@ -25,46 +25,89 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarColor01">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item">
-	        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About Me! <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#"><i class="fas fa-book"></i> Projects </a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="contact.html"><i class="fas fa-phone-square-alt"></i> Contact Me! </a>
-	      </li>
-	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-	      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-	    </form>
-	  </div>
-	</nav>
-
-	<h1 class="mt-5">This is about page</h1>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarColor01">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+			</li>
+			<li class="nav-item active">
+			  <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About Me! <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#project"><i class="fas fa-book"></i> Projects </a>
+			</li>
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="text" placeholder="Search">
+			<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+		  </form>
+		</div>
+	  </nav>
+	<div class="container">
+		<div id="about" class="mx-2">
+			<h1 class="mt-5">About me</h1>
+			<img src="./asset/img/profile.jpg" class="img-fluid my-3" alt="Profile Image" id="profile">
+			<p class="mt-2">
+				A career shifter from Transaction Processing Associate in Finance Department to an aspiring Web Developer. 
+				I successfully completed the intensive 4-month long coding Bootcamp (GIT, HTML, CSS, JavaScript (ES6+), JQuery, PHP, Bootstrap, SASS, Laravel, and Heroku.) 
+				which I learned to design and build applications from the front-end to back-end and passionate about learning new technologies.
+			</p>
+			<p>
+				Please see the links to my completed web development projects. Feel free to check them out.
+			</p>
+		</div>
+		<div id="project" class="mx-2">
+			<h1 class="mt-5 text-center">These is my Projects</h1>
+			<div class="card-group mt-5">
+				<div class="card bg-dark text-white m-2">
+					<img src="./asset/img/logo.png" class="img-fluid" alt="...">
+					<div class="card-img-overlay text-center">
+						<a href="" class="btn btn-success">View Demo</a>
+						<a href="" class="btn btn-success">View Code</a>
+					</div>
+				</div>
+				<div class="card bg-dark text-white m-2">
+					<img src="./asset/img/logo.png" class="img-fluid" alt="...">
+					<div class="card-img-overlay">
+						<a href="" class="btn btn-success">View Demo</a>
+						<a href="" class="btn btn-success">View Code</a>
+					</div>
+				</div>
+				<div class="card-group">
+					<div class="card bg-dark text-white m-2">
+						<img src="./asset/img/logo.png" class="img-fluid" alt="...">
+						<div class="card-img-overlay">
+							<a href="" class="btn btn-success">View Demo</a>
+							<a href="" class="btn btn-success">View Code</a>
+						</div>
+					</div>
+					<div class="card bg-dark text-white m-2">
+						<img src="./asset/img/logo.png" class="img-fluid" alt="...">
+						<div class="card-img-overlay">
+							<a href="" class="btn btn-success">View Demo</a>
+							<a href="" class="btn btn-success">View Code</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
 
 	  <!-- Site footer -->
     <footer class="site-footer">
       <div class="container">
         <div class="row">
 	         <div class="col-12">
-	         	<p class="copyright-text mb-2">Copyright &copy; 2020 
-         			<a href="#">Contact me!</a>.
-            	</p>
 	            <ul class="social-icons">
-	              <li><a class="facebook" href="#"><i class="fab fa-facebook-messenger"></i></a></li>
-	              <li><a class="viber" href="#"><i class="fab fa-viber"></i></a></li>
-	              <li><a class="gmail" href="#"><i class="fab fa-google-plus-g"></i></a></li>
-	              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+	              <li><a class="facebook" href="https://www.facebook.com/roselle.burlasa.9" target="_blank"><i class="fab fa-facebook-messenger"></i></a></li>
+	              <li><a class="viber" href="viber://chat?number=09453352014" target="_blank"><i class="fab fa-viber" target="_blank"></i></a></li>
+	              <li><a class="gmail" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+	              <li><a class="linkedin" href="https://www.linkedin.com/in/roselle-burlasa-b498a719a/" target="_blank"><i class="fa fa-linkedin"></i></a></li>   
 	            </ul>
 	         </div>
         </div>
